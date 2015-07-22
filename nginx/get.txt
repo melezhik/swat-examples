@@ -1,1 +1,3 @@
 200 OK
+regexp: Server: nginx/(\S+)
+
