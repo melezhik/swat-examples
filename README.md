@@ -1,6 +1,6 @@
 # swat-packages
 
-Swat packages are distributable swat tests
+Swat packages are distributable [swat](https://github.com/melezhik/swat) tests
 
 # create package
 
