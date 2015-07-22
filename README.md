@@ -15,7 +15,7 @@ For example for project ./nginx:
 
 # Upload package to swat repository 
 
-Swat repository might be  _ANY_ web server. One should place archive into server document root directory.
+Swat repository might be  _ANY_ web server. One should upload archive into server.
 Let's say we have nginx server. The example below is for debian:
 
     # install nginx:
