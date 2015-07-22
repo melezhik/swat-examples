@@ -4,8 +4,8 @@ Swat packages are distributable [swat](https://github.com/melezhik/swat) tests.
 
 # Create swat package
 
-Let's imagine you've got ready swat tests you want to distribute. First of all you need to create _tar.gz archive of
-swat project root directory_:
+Let's imagine you've got ready swat tests you want to distribute. First of all you need to create _tar.gz archive_ of
+swat project root directory:
 
     tar -zcf $project_root_dir.tar.gz project_root_dir
 
