@@ -16,7 +16,7 @@ Swat repository is _ANY_ web server
     sudo cp nginx.tar.gz /var/www/html/
 
 
-# run swat test
+# run swat tests
 
     swat_repo=127.0.0.1 swat nginx 192.168.0.1
 
