@@ -5,7 +5,7 @@ This is a collection of my swat packages. Follow [swat](https://github.com/melez
 # USAGE
 
     cd <package_dir>
-    swat ./ <host>
+    swat ./ <host>:<port>
 
 
 
