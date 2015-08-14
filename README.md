@@ -4,9 +4,11 @@ This is a collection of my swat packages. Follow [swat](https://github.com/melez
 
 # USAGE
 
-    echo swat_repo=https://github.com/melezhik/swat-packages >> ~/swat.ini
-    swatman install <package>
-    swat <package> <host>
+    cd <package_dir>
+    swat ./ <host>
+
+
+
 
 
 

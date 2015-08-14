@@ -1,9 +1,7 @@
 # USAGE
 
-    swat pintod 127.0.0.1:3111
 
-
-    $ swat pintod 127.0.0.1:3111
+    $ swat ./ 127.0.0.1:3111
     /home/vagrant/.swat/reports/127.0.0.1:3111/action/list/00.post.t ........
     # start swat for 127.0.0.1:3111//action/list
     # debug 0 | try num 2 | ignore http errors 0
@@ -31,7 +29,6 @@
     1..2
     ok
     All tests successful.
-    Files=3, Tests=7,  1 wallclock secs ( 0.03 usr  0.00 sys +  0.08 cusr  0.01 csys =  0.12 CPU)
+    Files=3, Tests=7,  1 wallclock secs ( 0.03 usr  0.00 sys +  0.08 cusr  0.00 csys =  0.11 CPU)
     Result: PASS
-    
     
