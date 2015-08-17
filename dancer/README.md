@@ -25,10 +25,13 @@
     ok 1 - successful response from GET 127.0.0.1:3000/hello/:name
     # data file: /home/vagrant/.swat/reports/127.0.0.1:3000//hello/:name/content.GET.txt
     ok 2 - GET /hello/:name returns 200 OK
-    ok 3 - GET /hello/:name returns xzzav
-    1..3
+    ok 3 - GET /hello/:name returns DSt0T
+    ok 4 - GET /hello/:name returns data matching Server: Perl Dancer (\d+.\d+)
+    # line found: 1.3140
+    1..4
     ok
     All tests successful.
-    Files=1, Tests=3,  0 wallclock secs ( 0.01 usr +  0.01 sys =  0.02 CPU)
+    Files=1, Tests=4,  0 wallclock secs ( 0.01 usr  0.00 sys +  0.01 cusr  0.00 csys =  0.02 CPU)
     Result: PASS
+    
 
