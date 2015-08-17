@@ -1,0 +1,3 @@
+200 OK
+regexp: STATISTICS FOR THE "(\w+)" STACK
+Status: ok
