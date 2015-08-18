@@ -1,6 +1,7 @@
 # SYNOPSIS
 
-Swat tests for dancer app. 
+Swat tests for dancer app. This is sample dancer application and could be used as smoke tests target in various
+CI processes, f.e. when running tests in travis.
 
 # USAGE
 

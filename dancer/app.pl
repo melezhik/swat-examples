@@ -5,5 +5,9 @@
         return "Why, hello there " . param('name')."\n";
     };
 
+    any ['get', 'post'] => '/myaction' => sub {
+        return "any"
+    };
+
 dance;
 
