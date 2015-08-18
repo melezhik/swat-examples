@@ -1,7 +1,8 @@
 200 OK
+Content-Type: text/plain
 generator: \
         my $data = []; \
-        open  F, 'files/'.$ENV{'txtfile'} or die $!; \
+        open  F, 'public/'.$ENV{'txtfile'} or die $!; \
         while (my $l = <F>){ \
             push @$data, $l; \
         }\
