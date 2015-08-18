@@ -18,5 +18,16 @@
         return "This is " . config->{appname};
     };
 
+    get '/cat/:txtfile' => sub {
+        content_type 'text/plain';
+        my $data;
+        open  F, 'files/'.param('txtfile') or die $!;
+        while (my $l = <F>){
+            $data.=$l;
+        }
+        close F;
+        return $data;
+    };
+
 dance;
 

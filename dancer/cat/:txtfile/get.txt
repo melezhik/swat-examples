@@ -1,0 +1,11 @@
+200 OK
+generator: \
+        my $data = []; \
+        open  F, 'files/'.$ENV{'txtfile'} or die $!; \
+        while (my $l = <F>){ \
+            push @$data, $l; \
+        }\
+        close F; \
+        $data;
+
+
