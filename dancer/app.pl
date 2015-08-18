@@ -9,5 +9,14 @@
         return "any"
     };
 
+    get '/cookie' => sub {
+        my $cookie = cookies->{name};
+        return $cookie->value;
+    };
+
+    get '/appname' => sub {
+        return "This is " . config->{appname};
+    };
+
 dance;
 
