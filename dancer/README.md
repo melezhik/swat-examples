@@ -17,3 +17,5 @@ CI processes, f.e. when running tests in travis.
 
     $ swat ./ 127.0.0.1:3000    
 
+
+![output](../images/dancer.png "output")
