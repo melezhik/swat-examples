@@ -9,7 +9,7 @@ CI processes, f.e. when running tests in travis.
 
     $ sudo apt-get install mongodb
 
-## Run mondodb with --rest 
+## Run mongodb with --rest 
 
     $ sudo /etc/init.d/mongodb start
     
