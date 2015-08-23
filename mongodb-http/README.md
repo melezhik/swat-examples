@@ -1,7 +1,6 @@
 # SYNOPSIS
 
-Swat tests for dancer app. This is sample dancer application and could be used as smoke tests target in various
-CI processes, f.e. when running tests in travis.
+Swat tests for mongodb http interface. This is simple test suit could be used in various CI processes, f.e. when running tests in travis.
 
 # USAGE
 
