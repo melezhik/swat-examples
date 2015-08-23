@@ -1,16 +1,16 @@
-    use inc::Module::Install;
+use inc::Module::Install;
 
-    # Define metadata
-    name           'swat-mongodb';
-    all_from       'lib/swat/mongodb.pm';
+# Define metadata
+name           'swat-mongodb';
+all_from       'lib/swat/mongodb.pm';
 
-    # Specific dependencies
-    requires       'swat'         => '0.1.28';
-    test_requires  'Test::More'   => '0';
+# Specific dependencies
+requires       'swat'         => '0.1.28';
+test_requires  'Test::More'   => '0';
 
-    install_share  ;    
-    
-    license 'perl';
+install_share  'module' => 'swat::mongodb', 'share';    
 
-    WriteAll;
+license 'perl';
+
+WriteAll;
 
