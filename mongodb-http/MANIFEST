@@ -1,0 +1,16 @@
+inc/Module/Install.pm
+inc/Module/Install/Base.pm
+inc/Module/Install/Makefile.pm
+inc/Module/Install/Metadata.pm
+inc/Module/Install/Share.pm
+lib/swat/mongodb.pm
+Makefile
+Makefile.PL
+MANIFEST
+META.yml
+MYMETA.json
+MYMETA.yml
+README.md
+share/buildInfo/get.txt
+share/serverStatus/get.txt
+t/00.t
