@@ -5,7 +5,7 @@
     all_from       'lib/swat/mongodb.pm';
 
     # Specific dependencies
-    requires       'swat'         => '0.1.27';
+    requires       'swat'         => '0.1.28';
     test_requires  'Test::More'   => '0';
 
     install_share  ;    

@@ -1,16 +1,22 @@
 inc/Module/Install.pm
 inc/Module/Install/Base.pm
+inc/Module/Install/Can.pm
+inc/Module/Install/Fetch.pm
 inc/Module/Install/Makefile.pm
 inc/Module/Install/Metadata.pm
 inc/Module/Install/Share.pm
+inc/Module/Install/Win32.pm
+inc/Module/Install/WriteAll.pm
 lib/swat/mongodb.pm
 Makefile
 Makefile.PL
-MANIFEST
+MANIFEST			This list of files
 META.yml
 MYMETA.json
 MYMETA.yml
 README.md
 share/buildInfo/get.txt
+share/lib/exist
+share/ok.txt
 share/serverStatus/get.txt
 t/00.t

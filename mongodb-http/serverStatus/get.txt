@@ -1,3 +1,0 @@
-200 OK
-regexp: \"ok\"\s+:\s+1\s
-regexp: \"host\"\s+:\s+\"(\S+)\"
