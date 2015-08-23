@@ -7,7 +7,8 @@ __END__
 
 =head1 SYNOPSIS
 
-Swat tests for mongodb http interface. This is simple test suit could be used in various CI processes, f.e. when running tests in travis.
+Swat tests for mongodb http interface. 
+This is simple test suit could be used in various CI processes, f.e. when running tests in Travis.
 
 =head1 INSTALL
 
@@ -31,7 +32,8 @@ Run swat tests
     $ swat swat::mongodb 127.0.0.1:28017
 
 
+=head1 AUTHOR
 
-=for html <img href="../../../images/mongodb-http.png">
+Alexey Melezhik
 
 

@@ -1,6 +1,7 @@
 # SYNOPSIS
 
-Swat tests for mongodb http interface. This is simple test suit could be used in various CI processes, f.e. when running tests in travis.
+Swat tests for mongodb http interface. 
+This is simple test suit could be used in various CI processes, f.e. when running tests in Travis.
 
 # INSTALL
 
@@ -23,6 +24,6 @@ Run swat tests
 
     $ swat swat::mongodb 127.0.0.1:28017
 
-<div>
-    <img href="../../../images/mongodb-http.png">
-</div>
+# AUTHOR
+
+Alexey Melezhik
