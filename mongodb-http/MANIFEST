@@ -16,7 +16,5 @@ MYMETA.json
 MYMETA.yml
 README.md
 share/buildInfo/get.txt
-share/lib/exist
-share/ok.txt
 share/serverStatus/get.txt
 t/00.t
