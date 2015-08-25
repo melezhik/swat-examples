@@ -1,15 +1,20 @@
 # SYNOPSIS
 
-Swat tests for pintod server 
+[Swat](https://github.com/melezhik/swat) tests for [pinto daemon](http://search.cpan.org/perldoc?pintod). 
+
+This simple test suit could be used in various CI processes, f.e. when running tests in Travis.
+
+# INSTALL
+
+    perl Makefile.PL
+    make
+    make test
+    make install
 
 # USAGE
 
-    $ swat ./ 127.0.0.1:3111
+    $ swat swat::pintod 127.0.0.1:3111
 
-![output](../images/pintod.png "output")
+# AUTHOR
 
-# swat.ini
-
-- *PINTO_PROTOCOL_VERSION* - sets pinto protocol version, default value is `1`
-
-
+Alexey Melezhik
