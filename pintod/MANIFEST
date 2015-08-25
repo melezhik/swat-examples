@@ -1,0 +1,22 @@
+inc/Module/Install.pm
+inc/Module/Install/Base.pm
+inc/Module/Install/Can.pm
+inc/Module/Install/Fetch.pm
+inc/Module/Install/Makefile.pm
+inc/Module/Install/Metadata.pm
+inc/Module/Install/Share.pm
+inc/Module/Install/Win32.pm
+inc/Module/Install/WriteAll.pm
+lib/swat/pintod.pm
+Makefile.PL
+MANIFEST			This list of files
+META.yml
+README
+README.md
+share/action/list/post.txt
+share/action/roots/post.txt
+share/action/statistics/post.txt
+share/action/verify/post.txt
+share/lib/pinto/swat.pm
+share/swat.ini
+t/00.t
