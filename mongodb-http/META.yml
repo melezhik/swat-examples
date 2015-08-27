@@ -1,7 +1,7 @@
 ---
-abstract: ~
+abstract: 'swat test for mongodb restapi'
 author:
-  - 'Alexey Melezhik'
+  - 'Alexey Melezhik.'
 build_requires:
   ExtUtils::MakeMaker: 6.36
   Test::More: 0
@@ -22,7 +22,7 @@ no_index:
     - share
     - t
 requires:
-  swat: 0.1.28
+  swat: 0.1.34
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.1.0
+version: 0.1.1

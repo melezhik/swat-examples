@@ -1,5 +1,5 @@
 package swat::mongodb;
-our $VERSION = '0.1.0';
+our $VERSION = '0.1.1';
 1;
 
 __END__
@@ -30,6 +30,13 @@ Run mongodb with --rest
 Run swat tests
 
     $ swat swat::mongodb 127.0.0.1:28017
+
+
+=head1 COPYRIGHT
+
+Copyright 2015 Alexey Melezhik.
+
+This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
 
 
 =head1 AUTHOR
