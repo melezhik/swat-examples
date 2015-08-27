@@ -1,4 +1,4 @@
-CHANGES.md
+CHANGELOG.md
 inc/Module/Install.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
@@ -19,5 +19,6 @@ README.md
 share/buildInfo/get.txt
 share/hook.pm
 share/lib/mongodb/swat.pm
+share/listDatabases/get.txt
 share/serverStatus/get.txt
 t/00.t
