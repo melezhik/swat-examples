@@ -1,3 +1,4 @@
+CHANGELOG.md
 inc/Module/Install.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
@@ -17,6 +18,7 @@ share/action/list/post.txt
 share/action/roots/post.txt
 share/action/statistics/post.txt
 share/action/verify/post.txt
+share/host
 share/lib/pinto/swat.pm
 share/swat.ini
 t/00.t

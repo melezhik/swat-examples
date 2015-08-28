@@ -1,7 +1,7 @@
 {
-   "abstract" : "unknown",
+   "abstract" : "swat test for pintod",
    "author" : [
-      "Alexey Melezhik"
+      "Alexey Melezhik."
    ],
    "dynamic_config" : 0,
    "generated_by" : "ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.142690",
@@ -34,10 +34,10 @@
       },
       "runtime" : {
          "requires" : {
-            "swat" : "v0.1.28"
+            "swat" : "v0.1.35"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "v0.1.0"
+   "version" : "v0.1.1"
 }

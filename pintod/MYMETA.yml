@@ -1,7 +1,7 @@
 ---
-abstract: unknown
+abstract: 'swat test for pintod'
 author:
-  - 'Alexey Melezhik'
+  - 'Alexey Melezhik.'
 build_requires:
   ExtUtils::MakeMaker: '6.36'
   File::ShareDir: '0'
@@ -20,5 +20,5 @@ no_index:
     - t
     - inc
 requires:
-  swat: v0.1.28
-version: v0.1.0
+  swat: v0.1.35
+version: v0.1.1
