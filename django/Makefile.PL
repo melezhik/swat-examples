@@ -1,7 +1,7 @@
 use inc::Module::Install;
 
 # Define metadata
-name           'swat-mongodb';
+name           'swat-django';
 all_from       'lib/swat/django.pm';
 abstract       'swat test for django application';
 
