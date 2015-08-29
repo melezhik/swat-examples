@@ -1,0 +1,25 @@
+inc/Module/Install.pm
+inc/Module/Install/Base.pm
+inc/Module/Install/Can.pm
+inc/Module/Install/Fetch.pm
+inc/Module/Install/Makefile.pm
+inc/Module/Install/Metadata.pm
+inc/Module/Install/Share.pm
+inc/Module/Install/Win32.pm
+inc/Module/Install/WriteAll.pm
+lib/swat/django.pm
+Makefile
+Makefile.PL
+MANIFEST			This list of files
+META.yml
+MYMETA.json
+MYMETA.yml
+share/admin/auth/user/get.txt
+share/header.txt
+share/hook.bash
+share/host
+share/login.txt
+share/login_ok.txt
+share/swat.ini
+share/swat.my
+t/00.t
