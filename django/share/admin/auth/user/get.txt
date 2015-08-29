@@ -1,2 +1,5 @@
 200 OK
 Change password
+Log out
+Add user
+regexp: <title>.*Django site admin.*<\/title>
