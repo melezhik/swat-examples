@@ -7,11 +7,12 @@ __END__
 
 =head1 SYNOPSIS
 
-Swat tests for django application. 
+L<Swat|https://github.com/melezhik/swat> tests for django application. 
 
 This is simple test suit could be used in various CI processes, f.e. when running tests in Travis.
 
-A limited set of routes is tested. GET / and GET /admin/auth/user . An admin login and password are setup in swat.my file
+A limited set of routes is tested. GET / and GET /admin/auth/user. 
+An admin login and password should be set in swat.my file.
 
 
 =head1 INSTALL
