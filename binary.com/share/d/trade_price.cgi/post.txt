@@ -1,0 +1,4 @@
+200 OK
+<div id="amount_for_10" class="bet_cost div_wrapper default">
+regexp: <span id="units_for_10" class="stylized_units">(\d+)<\/span>
+regexp: <span id="cents_for_10" class="stylized_cents">\.(\d+)<\/span>
