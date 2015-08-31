@@ -1,5 +1,5 @@
 package swat::bdc;
-our $VERSION = '0.1.2';
+our $VERSION = '0.1.3';
 1;
 
 __END__
@@ -63,3 +63,20 @@ A limited set of routes is tested. GET / and POST /d/trade_price.cgi.
     Files=2, Tests=9, 13 wallclock secs ( 0.01 usr  0.01 sys +  0.02 cusr  0.01 csys =  0.05 CPU)
     Result: PASS
     
+
+=head1 HOME PAGE
+
+https://github.com/melezhik/swat-packages/tree/master/binary.com
+
+
+=head1 COPYRIGHT
+
+Copyright 2015 Alexey Melezhik.
+
+This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
+
+
+=head1 AUTHOR
+
+Alexey Melezhik
+
