@@ -1,0 +1,26 @@
+inc/Module/Install.pm
+inc/Module/Install/Base.pm
+inc/Module/Install/Can.pm
+inc/Module/Install/Fetch.pm
+inc/Module/Install/Makefile.pm
+inc/Module/Install/Metadata.pm
+inc/Module/Install/Share.pm
+inc/Module/Install/Win32.pm
+inc/Module/Install/WriteAll.pm
+lib/swat/zendesk.pm
+Makefile
+Makefile.PL
+MANIFEST			This list of files
+META.yml
+MYMETA.json
+MYMETA.yml
+README
+README.md
+share/api/v2/:search/get.txt
+share/api/v2/:search/swat.ini
+share/api/v2/users.json/get.txt
+share/api/v2/users.json/swat.ini
+share/hc/api/v2/articles.json/get.txt
+share/hook.bash
+share/swat.my
+t/00.t
