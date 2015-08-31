@@ -19,7 +19,11 @@ This is simple test suit could be used in monitoring/deployment. A limited set o
 
 Setup credentials. This test suite implies you use basic authentication.
 
-    $ echo email_address=user@domain.com > swat.my
-    $ echo password=secret123 >> swat.my
+    echo email_address=user@domain.com > swat.my
+    echo password=secret123 >> swat.my
+
+Run tests
+
+    swat swat::zendesk http://example.zendesk.com
 
 # Sample Output
