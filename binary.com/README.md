@@ -21,6 +21,40 @@ A limited set of routes is tested. GET / and POST /d/trade\_price.cgi.
 
     $ swat swat::binary_dot_com https://www.binary.com 
 
+# Sample Output
+
+    $ swat swat::binary_dot_com https://www.binary.com -v
+
+    /home/vagrant/.swat/reports/https://www.binary.com/00.t .........................
+    # start swat for https://www.binary.com// | project /usr/local/share/perl/5.20.2/auto/share/module/swat-binary_dot_com | is swat package 1
+    # swat version 0.1.37 | debug 0 | try num 1 | ignore http errors 0
+    ok 1 - successful response from GET https://www.binary.com/
+    # data file: /home/vagrant/.swat/reports/https://www.binary.com///content.GET.txt
+    ok 2 - GET / returns 200 OK
+    ok 3 - GET / returns <title>Binary.com
+    1..3
+    ok
+    /home/vagrant/.swat/reports/https://www.binary.com/d/trade_price.cgi/00.post.t ..
+    # start swat for https://www.binary.com//d/trade_price.cgi | project /usr/local/share/perl/5.20.2/auto/share/module/swat-binary_dot_com | is swat package 1
+    # swat version 0.1.37 | debug 0 | try num 1 | ignore http errors 0
+    ok 1 - successful response from POST https://www.binary.com/d/trade_price.cgi
+    # data file: /home/vagrant/.swat/reports/https://www.binary.com//d/trade_price.cgi/content.POST.txt
+    ok 2 - POST /d/trade_price.cgi returns 200 OK
+    ok 3 - POST /d/trade_price.cgi returns <div id="amount_for_10" class="bet_cost div_wrapper default">
+    ok 4 - POST /d/trade_price.cgi returns data matching <span id="units_for_10" class="stylized_units">(\d+)<\/span>
+    # line found: 51
+    ok 5 - POST /d/trade_price.cgi returns data matching <span id="cents_for_10" class="stylized_cents">\.(\d+)<\/span>
+    # line found: 23
+    ok 6 - POST /d/trade_price.cgi returns data matching <input type="hidden" name="price" value="(\d+\.\d+)"\/>
+    # line found: 51.23
+    # line found: 51.31
+    1..6
+    ok
+    All tests successful.
+    Files=2, Tests=9, 14 wallclock secs ( 0.02 usr  0.00 sys +  0.02 cusr  0.02 csys =  0.06 CPU)
+    Result: PASS
+    
+
 # COPYRIGHT
 
 Copyright 2015 Alexey Melezhik.
