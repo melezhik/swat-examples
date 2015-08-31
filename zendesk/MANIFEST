@@ -22,5 +22,4 @@ share/api/v2/users.json/get.txt
 share/api/v2/users.json/swat.ini
 share/hc/api/v2/articles.json/get.txt
 share/hook.bash
-share/swat.my
 t/00.t
