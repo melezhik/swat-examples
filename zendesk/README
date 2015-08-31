@@ -10,7 +10,7 @@ INSTALL
         make test
         make install
 
-    # OR
+    OR
 
         sudo cpan swat::zendesk
 

@@ -18,7 +18,7 @@ This is simple test suit could be used in monitoring/deployment. A limited set o
     make test
     make install
 
-# OR
+OR
 
     sudo cpan swat::zendesk
 
