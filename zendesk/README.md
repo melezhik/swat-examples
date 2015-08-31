@@ -63,3 +63,17 @@ Run tests
     Files=3, Tests=12, 25 wallclock secs ( 0.02 usr  0.00 sys +  0.04 cusr  0.01 csys =  0.07 CPU)
     Result: PASS
     
+
+# HOME PAGE
+
+https://github.com/melezhik/swat-packages/tree/master/zendesk
+
+# COPYRIGHT
+
+Copyright 2015 Alexey Melezhik.
+
+This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
+
+# AUTHOR
+
+Alexey Melezhik
