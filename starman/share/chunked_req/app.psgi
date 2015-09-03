@@ -1,5 +1,4 @@
 use File::ShareDir;
-use Digest::MD5;
 
 sub {
     my $env = shift;
@@ -20,12 +19,6 @@ sub {
 BEGIN {
 
 my $file = File::ShareDir::dist_dir('Plack') . "/baybridge.jpg";
-
-open my $fh, "<", $file or die $!;
-my $md5 = Digest::MD5->new;
-$md5->addfile($fh);
-my $hex = $md5->hexdigest;
-
 
 open my $fh, "<:raw", $file;
 local $/ = \1024;
