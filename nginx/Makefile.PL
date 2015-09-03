@@ -8,7 +8,7 @@ abstract       'swat tests for nginx server';
 # Specific dependencies
 configure_requires 'File::ShareDir';
 
-requires       'swat'         => '0.1.39';
+requires       'swat'         => '0.1.40';
 requires       'Plack';
 requires       'FCGI::ProcManager';
 requires       'FCGI';

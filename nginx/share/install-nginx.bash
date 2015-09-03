@@ -12,7 +12,7 @@ else
     mkdir -p /tmp/nginx-source/
     cd /tmp/nginx-source 
     
-    wget $nginx_source_url
+    wget --debug --verbose $nginx_source_url || exit 1
     
     tar -xzf  *.tar.gz
     cd nginx-*
