@@ -1,5 +1,7 @@
 ---
 abstract: 'swat tests for starman web server'
+author:
+  - 'Alexey Melezhik.'
 build_requires:
   ExtUtils::MakeMaker: 6.36
   Test::More: 0
@@ -25,4 +27,4 @@ requires:
   swat: 0.1.39
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.1.1
+version: 0.1.2

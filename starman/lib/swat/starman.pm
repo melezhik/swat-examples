@@ -1,5 +1,5 @@
 package swat::starman;
-our $VERSION = '0.1.1';
+our $VERSION = '0.1.2';
 1;
 
 __END__
@@ -32,4 +32,20 @@ OR
 
     $ swat swat::starman 
 
+
+=head1 HOME PAGE
+
+https://github.com/melezhik/swat-packages/tree/master/starman
+
+
+=head1 COPYRIGHT
+
+Copyright 2015 Alexey Melezhik.
+
+This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
+
+
+=head1 AUTHOR
+
+Alexey Melezhik
 
