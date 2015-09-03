@@ -28,7 +28,7 @@ OR
 =head1 USAGE
 
     # do not enter host here
-    # starman runner is embeded
+    # starman runner is embedded
 
     $ swat swat::starman 
 
