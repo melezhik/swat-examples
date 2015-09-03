@@ -1,0 +1,32 @@
+SYNOPSIS
+    - Swat <https://github.com/melezhik/swat> tests for <http://nginx.org/>
+    server
+
+INSTALL
+        perl Makefile.PL
+        make
+        make test
+        make install
+
+    OR
+
+        sudo cpan swat::nginx
+
+USAGE
+        # do not enter host here
+        # nginx runner is embedded
+
+        $ swat swat::nginx
+
+HOME PAGE
+    https://github.com/melezhik/swat-packages/tree/master/nginx
+
+COPYRIGHT
+    Copyright 2015 Alexey Melezhik.
+
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
+AUTHOR
+    Alexey Melezhik
+
