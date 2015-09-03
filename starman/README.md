@@ -23,3 +23,17 @@ OR
     # starman runner is embedded
 
     $ swat swat::starman 
+
+# HOME PAGE
+
+https://github.com/melezhik/swat-packages/tree/master/starman
+
+# COPYRIGHT
+
+Copyright 2015 Alexey Melezhik.
+
+This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
+
+# AUTHOR
+
+Alexey Melezhik
