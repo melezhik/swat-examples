@@ -23,9 +23,11 @@ else
     
     cd $cdir
     
-    cp nginx.conf $nginx_dest_dir/usr/local/nginx/conf/nginx.conf
     
 fi 
+
+cp nginx.conf $nginx_dest_dir/usr/local/nginx/conf/nginx.conf
+perl -i -p -e "s{%port%}[$port]" $nginx_dest_dir/usr/local/nginx/conf/nginx.conf
 
 $nginx_dest_dir/usr/local/nginx/sbin/nginx -p $nginx_dest_dir/usr/local/nginx/
 
