@@ -21,8 +21,8 @@ no_index:
     - t
 requires:
   File::ShareDir: 0
-  starman: 0
+  Starman: 0
   swat: 0.1.39
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.1.0
+version: 0.1.1

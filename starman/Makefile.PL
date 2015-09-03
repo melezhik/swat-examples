@@ -9,7 +9,7 @@ abstract       'swat tests for starman web server';
 configure_requires 'File::ShareDir';
 
 requires       'swat'         => '0.1.39';
-requires       'starman';
+requires       'Starman';
 requires       'File::ShareDir';
  
 test_requires  'Test::More'   => '0';
