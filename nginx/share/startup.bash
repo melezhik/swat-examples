@@ -7,6 +7,7 @@ test -f $nginx_dest_dir/usr/local/nginx/logs/nginx.pid && kill `cat $nginx_dest_
 if [ -n "${nginx_skip_install}" ]; then
     :
 else
+
     rm -rf $nginx_dest_dir
     
     rm -rf /tmp/nginx-source
