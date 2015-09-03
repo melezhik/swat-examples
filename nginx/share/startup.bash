@@ -1,4 +1,5 @@
-source swat.ini
+echo $project
+source $project/swat.ini
 
 cdir=`pwd`
 
@@ -27,7 +28,7 @@ else
     
 fi 
 
-cp nginx.conf $nginx_dest_dir/usr/local/nginx/conf/nginx.conf
+cp $project/nginx.conf $nginx_dest_dir/usr/local/nginx/conf/nginx.conf
 perl -i -p -e "s{%port%}[$port]" $nginx_dest_dir/usr/local/nginx/conf/nginx.conf
 
 $nginx_dest_dir/usr/local/nginx/sbin/nginx -p $nginx_dest_dir/usr/local/nginx/
