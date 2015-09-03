@@ -11,7 +11,7 @@ configure_requires 'File::ShareDir';
 requires       'swat'         => '0.1.39';
 requires       'Plack';
 requires       'FCGI::ProcManager';
-requires       'FCGI'
+requires       'FCGI';
 requires       'File::ShareDir';
  
 test_requires  'Test::More'   => '0';
