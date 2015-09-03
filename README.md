@@ -4,7 +4,6 @@ This is a collection of swat packages. Follow [swat](https://github.com/melezhik
 
 # USAGE
 
-    $ cpan swat
     $ git clone https://github.com/melezhik/swat-packages/
     $ cd <package_dir>
     # follow README.md instructions
