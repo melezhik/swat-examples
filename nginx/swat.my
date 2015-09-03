@@ -1,2 +1,4 @@
-prove_options=-v
+prove_options=-Q
 nginx_skip_install=1
+port=8000
+

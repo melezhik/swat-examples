@@ -26,7 +26,7 @@ requires:
   FCGI::ProcManager: 0
   File::ShareDir: 0
   Plack: 0
-  swat: 0.1.39
+  swat: 0.1.40
 resources:
   license: http://dev.perl.org/licenses/
 version: 0.1.2
