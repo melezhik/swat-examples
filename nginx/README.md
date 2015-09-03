@@ -1,6 +1,6 @@
 # SYNOPSIS
 
-\- [Swat](https://github.com/melezhik/swat) tests for [http://nginx.org/](http://nginx.org/) server
+\- [Swat](https://github.com/melezhik/swat) tests for [nginx](http://nginx.org/) server
 
 # INSTALL
 

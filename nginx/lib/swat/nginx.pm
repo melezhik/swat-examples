@@ -7,7 +7,7 @@ __END__
 
 =head1 SYNOPSIS
 
-- L<Swat|https://github.com/melezhik/swat> tests for L<http://nginx.org/> server
+- L<Swat|https://github.com/melezhik/swat> tests for L<nginx|http://nginx.org/> server
 
 =head1 INSTALL
 
