@@ -1,35 +1,6 @@
-echo $project
-source $project/swat.ini
-
-cdir=`pwd`
-
-test -f $nginx_dest_dir/usr/local/nginx/logs/nginx.pid && kill `cat $nginx_dest_dir/usr/local/nginx/logs/nginx.pid`
-
-if [ -n "${nginx_skip_install}" ]; then
-    :
-else
-
-    rm -rf $nginx_dest_dir
-    
-    rm -rf /tmp/nginx-source
-    mkdir -p /tmp/nginx-source/
-    cd /tmp/nginx-source 
-    
-    wget $nginx_source_url
-    
-    tar -xzf  *.tar.gz
-    cd nginx-*
-    ./configure $nginx_configure_flags
-    make
-    make install DESTDIR=$nginx_dest_dir
-    
-    cd $cdir
-    
-    
-fi 
-
-cp $project/nginx.conf $nginx_dest_dir/usr/local/nginx/conf/nginx.conf
-perl -i -p -e "s{%port%}[$port]" $nginx_dest_dir/usr/local/nginx/conf/nginx.conf
-
-$nginx_dest_dir/usr/local/nginx/sbin/nginx -p $nginx_dest_dir/usr/local/nginx/
+source  $safe_project/swat.ini
+export  safe_project
+export  port
+export  nginx_skip_install
+bash    $safe_project/install-nginx.bash 1>/tmp/install-nginx.log 2>&1 || ( cat /tmp/install-nginx.log && exit 1);
 

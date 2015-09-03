@@ -23,6 +23,7 @@ share/fastcgi/hook.pm
 share/fastcgi/swat.ini
 share/get.txt
 share/host
+share/install-nginx.bash
 share/nginx.conf
 share/startup.bash
 share/swat.ini
