@@ -1,5 +1,5 @@
 package swat::nginx;
-our $VERSION = '0.1.0';
+our $VERSION = '0.1.1';
 1;
 
 __END__
@@ -72,7 +72,9 @@ B<nginx_configure_flags> - a string, default value is C<--without-http_rewrite_m
 
 B<port> - nginx server port, default value is C<8000>
 
+=item *
 
+B<nginx_reinstall> - forcefully resinstall installed nginx, by default this is unset
 
 =back
 
