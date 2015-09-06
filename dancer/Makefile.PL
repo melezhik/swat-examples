@@ -1,21 +1,23 @@
 use inc::Module::Install;
 
 # Define metadata
-name           'swat-nginx';
-all_from       'lib/swat/nginx.pm';
-abstract       'swat tests for nginx server';
+name           'swat-dancer';
+all_from       'lib/swat/dancer.pm';
+abstract       'swat tests for dancer2';
 
 # Specific dependencies
 configure_requires 'File::ShareDir';
 
 requires       'swat'         => '0.1.41';
-requires       'Plack';
-requires       'FCGI::ProcManager';
-requires       'FCGI';
+requires       'Dancer2';
 requires       'File::ShareDir';
+
+requires       'Plack';
+requires       'Starman';
+
 test_requires  'Test::More'   => '0';
 
-install_share  'module' => 'swat::nginx', 'share';    
+install_share  'module' => 'swat::dancer', 'share';    
 
 license 'perl';
 

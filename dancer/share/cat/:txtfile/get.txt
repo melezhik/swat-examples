@@ -2,7 +2,7 @@
 Content-Type: text/plain
 generator: \
         my $data = []; \
-        open  F, 'public/'.$ENV{'txtfile'} or die $!; \
+        open  F, $project.'/public/'.$ENV{'txtfile'} or die $!; \
         while (my $l = <F>){ \
             push @$data, $l; \
         }\

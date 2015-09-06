@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-    use Dancer;
+    use Dancer2;
 
     get '/hello/:name' => sub {
         return "Why, hello there " . param('name')."\n";

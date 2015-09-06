@@ -1,20 +1,43 @@
-# SYNOPSIS
+package swat::dancer;
+our $VERSION = '0.1.1';
+1;
 
-Installs [dancer2](http://search.cpan.org/perldoc?Dancer2) sample Dancer2 application  run sanity check using [swat](https://github.com/melezhik/swat) DSL.
+__END__
 
-# Check List
 
-- get, post
-- cookies
-- static file
-- config parameter
+=head1 SYNOPSIS
 
-# INSTALL
+Installs L<dancer2|http://search.cpan.org/perldoc?Dancer2> sample Dancer2 application  run sanity check using L<swat|https://github.com/melezhik/swat> DSL.
+
+=head1 Check List
+
+=over 
+
+=item *
+
+get, post
+
+=item *
+
+cookies
+
+=item *
+
+static file
+
+=item *
+
+config parameter
+
+=back
+
+=head1 INSTALL
 
     # yes you need a curl
     sudo apt-get install curl
 
 AND (
+
 
     perl Makefile.PL
     make
@@ -27,23 +50,26 @@ OR
 
 )
 
-# USAGE
+=head1 USAGE
 
     # do not enter host here
     # dancer runner is embedded
 
     $ swat swat::dancer 
 
-# HOME PAGE
+=head1 HOME PAGE
 
 https://github.com/melezhik/swat-packages/tree/master/dancer
 
-# COPYRIGHT
+
+=head1 COPYRIGHT
 
 Copyright 2015 Alexey Melezhik.
 
 This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
 
-# AUTHOR
+
+=head1 AUTHOR
 
 Alexey Melezhik
+
