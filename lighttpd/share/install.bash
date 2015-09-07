@@ -23,7 +23,7 @@ echo port: $port
 
 mkdir -p $lighttpd_dest_dir/usr/local/etc/conf.d
 mkdir -p $lighttpd_dest_dir/usr/local/etc/lighttpd
-mkdir -p $lighttpd_dest_dir/usr/local/var/log
+mkdir -p $lighttpd_dest_dir/usr/local/var/log/lighttpd
 mkdir -p $lighttpd_dest_dir/usr/local/var/run
 mkdir -p $lighttpd_dest_dir/usr/local/var/tmp
 mkdir -p $lighttpd_dest_dir/usr/local/var/cache/lighttpd
