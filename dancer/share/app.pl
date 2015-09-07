@@ -1,5 +1,8 @@
 #!/usr/bin/perl
+
     use Dancer2;
+
+    set public_dir => "$ENV{project}/public";
 
     get '/hello/:name' => sub {
         return "Why, hello there " . param('name')."\n";

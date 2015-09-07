@@ -8,7 +8,7 @@ abstract       'swat tests for dancer2';
 # Specific dependencies
 configure_requires 'File::ShareDir';
 
-requires       'swat'         => '0.1.41';
+requires       'swat'         => '0.1.42';
 requires       'Dancer2';
 requires       'File::ShareDir';
 

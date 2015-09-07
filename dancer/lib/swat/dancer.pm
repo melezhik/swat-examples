@@ -7,7 +7,7 @@ __END__
 
 =head1 SYNOPSIS
 
-Installs L<dancer2|http://search.cpan.org/perldoc?Dancer2> sample Dancer2 application  run sanity check using L<swat|https://github.com/melezhik/swat> DSL.
+Installs sample L<dancer2|http://search.cpan.org/perldoc?Dancer2> L<application|share/app.pl>  run sanity check using L<swat|https://github.com/melezhik/swat> DSL.
 
 =head1 Check List
 
@@ -15,7 +15,11 @@ Installs L<dancer2|http://search.cpan.org/perldoc?Dancer2> sample Dancer2 applic
 
 =item *
 
-get, post
+C<:> parameters
+
+=item *
+
+get, post requests
 
 =item *
 

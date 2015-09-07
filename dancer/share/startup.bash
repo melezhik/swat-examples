@@ -1,3 +1,2 @@
 export project
-export safe_project
-
+export DANCER_CONFDIR=$project
