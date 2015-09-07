@@ -1,3 +1,6 @@
+# 0.1.3
+- a minor doc changes 
+
 # 0.1.2
 - fix make file 
 

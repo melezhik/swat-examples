@@ -1,5 +1,5 @@
 package swat::nginx;
-our $VERSION = '0.1.2';
+our $VERSION = '0.1.3';
 1;
 
 __END__
@@ -67,12 +67,13 @@ B<nginx_dest_dir> - destination dirictory for make install, default value is C</
 
 B<nginx_configure_flags> - a string, default value is C<--without-http_rewrite_module>
 
-
 =item *
 
 B<port> - nginx server port, default value is C<8000>
 
+=item *
 
+B<nginx_reinstall> - reinstall existed nginx server, default value is unset;
 
 =back
 
