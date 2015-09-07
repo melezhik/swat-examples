@@ -1,6 +1,6 @@
 SYNOPSIS
     Installs sample dancer2 <http://search.cpan.org/perldoc?Dancer2>
-    application ( see share/app.pl ) run sanity check using swat
+    application ( see share/app.pl ) and runs sanity checks using swat
     <https://github.com/melezhik/swat> DSL.
 
 Check List
