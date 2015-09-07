@@ -1,3 +1,4 @@
+echo lighttpd_dest_dir: $lighttpd_dest_dir
 cdir=`pwd`
 rm -rf $lighttpd_dest_dir
 rm -rf /tmp/lighttpd-source
@@ -6,14 +7,14 @@ mkdir -p /tmp/lighttpd-source/
 
 cd /tmp/lighttpd-source
 
-curl -D - -s $lighttpd_source_url -o data.tar.gz || exit 1
+curl -D -  -s $lighttpd_source_url -o data.tar.gz || exit 1
 
 tar -xzf  *.tar.gz
 cd lighttpd-*
 ./autogen.sh || exit 1
-./configure  || exit 1
-make || exit 1
-make install DESTDIR=$lighttpd_dest_dir || exit 1
+./configure  --prefix $lighttpd_dest_dir || exit 1
+make
+make install
 
 cd $cdir
 
@@ -36,7 +37,10 @@ cp -r $project/conf.d/*.conf $lighttpd_dest_dir/usr/local/etc/conf.d || exit 1
 perl -i -p -e "s{%prefix%}[$lighttpd_dest_dir]g" $lighttpd_dest_dir/usr/local/etc/lighttpd.conf || exit 1
 perl -i -p -e "s{%port%}[$port]" $lighttpd_dest_dir/usr/local/etc/lighttpd.conf || exit 1
 
-$lighttpd_dest_dir/usr/local/sbin/lighttpd -f $lighttpd_dest_dir/usr/local/etc/lighttpd.conf || exit 1
+echo "running lighttpd"
+echo $lighttpd_dest_dir/sbin/lighttpd -f $lighttpd_dest_dir/usr/local/etc/lighttpd.conf
+
+$lighttpd_dest_dir/sbin/lighttpd -f $lighttpd_dest_dir/usr/local/etc/lighttpd.conf || exit 1
 
 
 touch /tmp/lighttpd-source/install.ok
