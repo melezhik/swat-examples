@@ -25,4 +25,4 @@ requires:
   swat: 0.1.34
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.1.1
+version: 0.1.2
