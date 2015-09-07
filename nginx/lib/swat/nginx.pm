@@ -73,7 +73,7 @@ B<port> - nginx server port, default value is C<8000>
 
 =item *
 
-B<nginx_reinstall> - reinstall existed nginx server, default value is unset;
+B<nginx_reinstall> - reinstall existed nginx server, default value is unset
 
 =back
 

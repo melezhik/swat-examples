@@ -46,7 +46,7 @@ Configuration
     *   port - nginx server port, default value is 8000
 
     *   nginx_reinstall - reinstall existed nginx server, default value is
-        unset;
+        unset
 
     Setup example:
 

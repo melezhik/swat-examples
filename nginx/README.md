@@ -40,7 +40,7 @@ You may redefine test configiration using swat.my file:
 - **nginx\_dest\_dir** - destination dirictory for make install, default value is `/tmp/nginx`
 - **nginx\_configure\_flags** - a string, default value is `--without-http_rewrite_module`
 - **port** - nginx server port, default value is `8000`
-- **nginx\_reinstall** - reinstall existed nginx server, default value is unset;
+- **nginx\_reinstall** - reinstall existed nginx server, default value is unset
 
 Setup example:
 
