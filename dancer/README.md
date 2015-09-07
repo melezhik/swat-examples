@@ -1,6 +1,6 @@
 # SYNOPSIS
 
-Installs sample [dancer2](http://search.cpan.org/perldoc?Dancer2) [application](https://metacpan.org/pod/.#share-app.pl)  run sanity check using [swat](https://github.com/melezhik/swat) DSL.
+Installs sample [dancer2](http://search.cpan.org/perldoc?Dancer2) application ( see share/app.pl )  run sanity check using [swat](https://github.com/melezhik/swat) DSL.
 
 # Check List
 
