@@ -1,5 +1,5 @@
 ---
-abstract: 'swat tests for nginx server'
+abstract: 'swat tests for nginx'
 author:
   - 'Alexey Melezhik.'
 build_requires:
@@ -22,11 +22,11 @@ no_index:
     - share
     - t
 requires:
-  FCGI: 0
-  FCGI::ProcManager: 0
+  Dancer2: 0
   File::ShareDir: 0
   Plack: 0
-  swat: 0.1.41
+  Starman: 0
+  swat: 0.1.42
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.1.0
+version: 0.1.1

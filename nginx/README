@@ -45,9 +45,6 @@ Configuration
 
     *   port - nginx server port, default value is 8000
 
-    *   nginx_reinstall - forcefully resinstall installed nginx, by default
-        this is unset
-
     Setup example:
 
         $ echo nginx_source_url=http://nginx.org/download/nginx-1.7.0.tar.gz > swat.my

@@ -1,0 +1,4 @@
+prove_options=-vs
+port=8000
+nginx_configure_flags="--without-http_rewrite_module"
+

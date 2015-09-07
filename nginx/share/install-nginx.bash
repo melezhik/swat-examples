@@ -19,7 +19,7 @@ cd $cdir
 echo patching nginx.conf
 echo port: $port
 
-cp $safe_project/nginx.conf $nginx_dest_dir/usr/local/nginx/conf/nginx.conf || exit 1
+cp $project/nginx.conf $nginx_dest_dir/usr/local/nginx/conf/nginx.conf || exit 1
 perl -i -p -e "s{%port%}[$port]" $nginx_dest_dir/usr/local/nginx/conf/nginx.conf || exit 1
 
 $nginx_dest_dir/usr/local/nginx/sbin/nginx -p $nginx_dest_dir/usr/local/nginx/ || exit 1
