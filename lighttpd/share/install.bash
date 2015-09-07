@@ -34,7 +34,7 @@ cp $project/lighttpd.conf $lighttpd_dest_dir/usr/local/etc/ || exit 1
 cp $project/modules.conf $lighttpd_dest_dir/usr/local/etc/ || exit 1
 cp -r $project/conf.d/*.conf $lighttpd_dest_dir/usr/local/etc/conf.d || exit 1
 
-perl -i -p -e "s{%prefix%}[$lighttpd_dest_dir]g" $lighttpd_dest_dir/usr/local/etc/lighttpd.conf || exit 1
+perl -i -p -e "s{%prefix%}[$lighttpd_dest_dir//usr/local]g" $lighttpd_dest_dir/usr/local/etc/lighttpd.conf || exit 1
 perl -i -p -e "s{%port%}[$port]" $lighttpd_dest_dir/usr/local/etc/lighttpd.conf || exit 1
 
 echo "running lighttpd"
