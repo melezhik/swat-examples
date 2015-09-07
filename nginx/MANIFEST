@@ -30,4 +30,5 @@ share/nginx.conf
 share/startup.bash
 share/stop-nginx.bash
 share/swat.ini
+swat.my
 t/00.t
