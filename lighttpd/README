@@ -5,7 +5,7 @@ SYNOPSIS
 Check List
     *   landing page
 
-    *   cgi
+    *   proxy to standalone fast cgi server ( perl/FCGI/plack )
 
 INSTALL
         # yes you need a curl

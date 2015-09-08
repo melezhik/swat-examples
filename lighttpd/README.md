@@ -5,7 +5,7 @@ Install [lighttpd](http://lighttpd.org/) server from source and run sanity check
 # Check List
 
 - landing page
-- cgi
+- proxy to standalone fast cgi server ( perl/FCGI/plack ) 
 
 # INSTALL
 

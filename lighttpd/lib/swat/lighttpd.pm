@@ -19,7 +19,7 @@ landing page
 
 =item *
 
-cgi
+proxy to standalone fast cgi server ( perl/FCGI/plack ) 
 
 =back
 

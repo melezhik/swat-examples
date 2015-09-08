@@ -27,6 +27,9 @@ share/conf.d/mime.conf
 share/data/file.txt
 share/data/file2.txt
 share/data/file3.txt
+share/fastcgi/get.txt
+share/fastcgi/hook.pm
+share/fastcgi/swat.ini
 share/hook.pm
 share/host
 share/install.bash
