@@ -1,0 +1,13 @@
+200 OK
+Content-Type: text/plain
+generator: \
+        my $data = []; \
+        open  F, $project.'/data/'.$ENV{'file_path'} or die $!; \
+        while (my $l = <F>){ \
+            push @$data, $l; \
+        }\
+        close F; \
+        $data;
+
+
+regexp: Server:\s+lighttpd

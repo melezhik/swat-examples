@@ -36,14 +36,14 @@ cp -r $project/conf.d/*.conf $lighttpd_dest_dir/usr/local/etc/conf.d || exit 1
 
 perl -i -p -e "s{%prefix%}[$lighttpd_dest_dir//usr/local]g" $lighttpd_dest_dir/usr/local/etc/lighttpd.conf || exit 1
 perl -i -p -e "s{%port%}[$port]" $lighttpd_dest_dir/usr/local/etc/lighttpd.conf || exit 1
+perl -i -p -e "s{%project%}[$project]g" $lighttpd_dest_dir/usr/local/etc/lighttpd.conf || exit 1
 
 echo "running lighttpd"
 echo $lighttpd_dest_dir/sbin/lighttpd -f $lighttpd_dest_dir/usr/local/etc/lighttpd.conf
 
 $lighttpd_dest_dir/sbin/lighttpd -f $lighttpd_dest_dir/usr/local/etc/lighttpd.conf || exit 1
 
-
-touch /tmp/lighttpd-source/install.ok
+touch /tmp/lighttpd-source/run.ok
 
 
 #/home/vagrant/projects/lighttpd-1.4.37/doc/config/lighttpd.conf:var.log_root    = "/var/log/lighttpd"

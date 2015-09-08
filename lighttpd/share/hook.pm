@@ -12,7 +12,7 @@ if (! -e "$ENV{lighttpd_dest_dir}/sbin/lighttpd"){
     install_lighttpd()
 }
 
-BAIL_OUT("failed to install/run lighttpd") unless -e '/tmp/lighttpd-source/install.ok';
+BAIL_OUT("failed to install/run lighttpd") unless -e '/tmp/lighttpd-source/run.ok';
 
 1;
 

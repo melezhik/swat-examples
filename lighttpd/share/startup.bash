@@ -10,5 +10,7 @@ if test -n "${lighttpd_reinstall}"; then
     rm -rf $lighttpd_dest_dir
 fi
 
+
 test -f $lighttpd_dest_dir/sbin/lighttpd && \
-$lighttpd_dest_dir/sbin/lighttpd -f $lighttpd_dest_dir/usr/local/etc/lighttpd.conf
+$lighttpd_dest_dir/sbin/lighttpd -f $lighttpd_dest_dir/usr/local/etc/lighttpd.conf && \
+touch /tmp/lighttpd-source/run.ok
