@@ -69,6 +69,8 @@ B<lighttpd_dest_dir> - destination dirictory for make install, default value is 
 B<port> - lighttpd server port, default value is C<8000>
 
 
+B<lighttpd_reinstall> - reinstall existed lighttpd server, default value is unset
+
 
 =back
 

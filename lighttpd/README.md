@@ -40,6 +40,8 @@ You may redefine test configiration using swat.my file:
 - **lighttpd\_dest\_dir** - destination dirictory for make install, default value is `/tmp/lighttpd`
 - **port** - lighttpd server port, default value is `8000`
 
+    **lighttpd\_reinstall** - reinstall existed lighttpd server, default value is unset
+
 Setup example:
 
     $ echo lighttpd_source_url=http://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.36.tar.gz > swat.my
