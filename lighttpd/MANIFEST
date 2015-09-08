@@ -23,6 +23,7 @@ share/cleanup.pm
 share/conf.d/access_log.conf
 share/conf.d/debug.conf
 share/conf.d/dirlisting.conf
+share/conf.d/fastcgi.conf
 share/conf.d/mime.conf
 share/data/file.txt
 share/data/file2.txt
