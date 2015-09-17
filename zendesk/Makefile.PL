@@ -3,7 +3,7 @@ use inc::Module::Install;
 # Define metadata
 name           'swat-zendesk';
 all_from       'lib/swat/zendesk.pm';
-abstract       'swat test for binary.com';
+abstract       'swat test for zendesk application';
 
 # Specific dependencies
 configure_requires 'File::ShareDir';

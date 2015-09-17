@@ -62,7 +62,6 @@ Run tests
     All tests successful.
     Files=3, Tests=12, 25 wallclock secs ( 0.02 usr  0.00 sys +  0.04 cusr  0.01 csys =  0.07 CPU)
     Result: PASS
-    
 
 # HOME PAGE
 
