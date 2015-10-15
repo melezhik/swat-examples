@@ -1,0 +1,12 @@
+200 OK
+Content-Type: text/plain
+generator:                                      \
+        my $data = [];                          \
+        open  F, our $file_path or die $!;      \
+        while (my $l = <F>){                    \
+            push @$data, $l;                    \
+        }                                       \
+        close F;                                \
+        $data;
+
+

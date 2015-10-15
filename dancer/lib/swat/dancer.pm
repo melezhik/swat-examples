@@ -3,9 +3,13 @@ package swat::dancer;
 
 package main;
 
+sub project_root_dir {
+    get_prop('project')
+}
+
 sub start_dancer_app {
-    my $project_root_dir = get_prop('project');
-    `cd $project_root_dir && carton exec  plackup  -s Starman -D 'app.pl' --pid /tmp/app.pid`;
+    my $project_root_dir = project_root_dir();
+    `cd $project_root_dir && export project_root_dir=$project_root_dir && carton exec  plackup  -s Starman -D 'app.pl' --pid /tmp/app.pid`;
     my $pid = get_app_pid();
     ok($pid,"dancer is running . pid: $pid");
 }
