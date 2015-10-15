@@ -7,7 +7,7 @@ run_swat_module( GET => 'static/file' );
 
 set_response('success');
 
-#stop_dancer_app();
+stop_dancer_app();
 
 1;
 

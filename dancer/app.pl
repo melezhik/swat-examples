@@ -21,7 +21,7 @@ get '/appname' => sub {
     return "This is " . config->{appname};
 };
 
-get 'static/file' => sub {
+get 'static/:file' => sub {
     content_type 'text/plain';
     send_file(params->{file});
 };
