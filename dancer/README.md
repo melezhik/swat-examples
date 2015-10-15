@@ -1,6 +1,6 @@
 # SYNOPSIS
 
-Installs sample [dancer2](http://search.cpan.org/perldoc?Dancer2) application ( see share/app.pl ) and runs sanity checks using [swat](https://github.com/melezhik/swat) DSL.
+Runs sanity [swat](https://github.com/melezhik/swat) checks against a sample Dancer2 application ( app.pl ).
 
 # Check List
 
@@ -12,32 +12,12 @@ Installs sample [dancer2](http://search.cpan.org/perldoc?Dancer2) application ( 
 
 # INSTALL
 
-    # yes you need a curl
     sudo apt-get install curl
-
-AND (
-
-    perl Makefile.PL
-    make
-    make test
-    make install
-
-OR
-
-    sudo cpan swat::dancer
-
-)
+    carton
 
 # USAGE
 
-    # do not enter host here
-    # dancer runner is embedded
-
-    $ swat swat::dancer 
-
-# HOME PAGE
-
-https://github.com/melezhik/swat-packages/tree/master/dancer
+    carton exec swat
 
 # COPYRIGHT
 

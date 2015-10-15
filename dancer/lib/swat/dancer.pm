@@ -1,79 +1,28 @@
 package swat::dancer;
-our $VERSION = '0.1.1';
 1;
 
-__END__
+package main;
 
+sub start_dancer_app {
+    my $project_root_dir = get_prop('project');
+    `cd $project_root_dir && carton exec  plackup  -s Starman -D 'app.pl' --pid /tmp/app.pid`;
+    my $pid = get_app_pid();
+    ok($pid,"dancer is running . pid: $pid");
+}
 
-=head1 SYNOPSIS
+sub stop_dancer_app {
+    my $pid = get_app_pid();
+    `kill $pid` if $pid;
+}
 
-Installs sample L<dancer2|http://search.cpan.org/perldoc?Dancer2> application ( see share/app.pl ) and runs sanity checks using L<swat|https://github.com/melezhik/swat> DSL.
+sub get_app_pid {
+    my $pid;
+    if (open F, "/tmp/app.pid"){
+        $pid = <F>;
+        close F;
+    }
+    return $pid;
+}
 
-=head1 Check List
-
-=over 
-
-=item *
-
-C<:> parameters
-
-=item *
-
-get, post requests
-
-=item *
-
-cookies
-
-=item *
-
-static file
-
-=item *
-
-config parameter
-
-=back
-
-=head1 INSTALL
-
-    # yes you need a curl
-    sudo apt-get install curl
-
-AND (
-
-
-    perl Makefile.PL
-    make
-    make test
-    make install
-
-OR
-
-    sudo cpan swat::dancer
-
-)
-
-=head1 USAGE
-
-    # do not enter host here
-    # dancer runner is embedded
-
-    $ swat swat::dancer 
-
-=head1 HOME PAGE
-
-https://github.com/melezhik/swat-packages/tree/master/dancer
-
-
-=head1 COPYRIGHT
-
-Copyright 2015 Alexey Melezhik.
-
-This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
-
-
-=head1 AUTHOR
-
-Alexey Melezhik
+1;
 
