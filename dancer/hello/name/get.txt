@@ -1,4 +1,4 @@
 200 OK
-generator: [ $ENV{'name'} ]
+hello-swat
 regexp: Server: Perl Dancer2 (\d+.\d+)
 
